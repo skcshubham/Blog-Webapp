@@ -5,7 +5,7 @@ import SignedOutLinks from "./SignedOutLinks";
 
 const Navbar = () => {
 	return (
-		<div>
+		<div style={{ marginBottom: "5%" }}>
 			<nav className="nav-wrapper grey darken-3">
 				<div className="container">
 					<Link to="/" className="brand-logo left">
