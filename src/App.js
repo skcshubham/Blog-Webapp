@@ -9,7 +9,9 @@ class App extends Component {
 			<div className="App">
 				<Navbar />
 				<Switch>
-					<Route exact path="/" Component={Dashboard} />
+					<Route path="/">
+						<Dashboard />
+					</Route>
 				</Switch>
 			</div>
 		);
