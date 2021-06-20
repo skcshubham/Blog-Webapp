@@ -21,14 +21,9 @@ class SignUp extends Component {
 
 	render() {
 		return (
-			<div className="container" style={{ width: "500px" }}>
+			<div className="container">
 				<form className="white" onSubmit={this.handleSubmit}>
-					<h5
-						className="grey-text text-darken-3"
-						style={{ marginBottom: "30px" }}
-					>
-						Sign Up
-					</h5>
+					<h5 className="grey-text text-darken-3">Sign Up</h5>
 					<div className="input-field">
 						<label htmlFor="firstName">First Name</label>
 						<input type="text" id="firstName" onChange={this.handleChange} />
